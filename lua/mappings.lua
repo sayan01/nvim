@@ -37,9 +37,7 @@ map("n", "N", "Nzzzv" , { desc = "Move to previous search item" })
 
 map("x", "<leader>p", '"_dP', { desc = "Paste without yanking" })
 
-map("n", "<C-j>", "<cmd>cnext<CR>zz", { desc = "Move to next quickfix item" })
-map("n", "<C-k>", "<cmd>cprev<CR>zz", { desc = "Move to previous quickfix item" })
-map("n", "<leader>j", "<cmd>lnext<CR>zz", { desc = "Move to next location list item" })
-map("n", "<leader>k", "<cmd>lprev<CR>zz", { desc = "Move to previous location list item" })
+map("n", "<leader>j", "<cmd>cnext<CR>zz", { desc = "Move to next quickfix item" })
+map("n", "<leader>k", "<cmd>cprev<CR>zz", { desc = "Move to previous quickfix item" })
 
 map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "Substitute word under cursor" })
